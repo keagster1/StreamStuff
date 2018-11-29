@@ -21,7 +21,7 @@ First things first, learn what programming is. Since you may be a complete begin
 
 Once you have a basic understanding of what Computer Science is, we can move on to learning to program.
 
-Learning a Language
+Picking a Language
 --
 
 Before giving my two cents on which langauges you should learn, bare in mind that if you go to college they will teach a few popular ones. Actaully I'm not going to straight up tell you what to learn first because that is part of the fun. You can start anywhere, just make sure to take advantage of quality online resources.
@@ -57,3 +57,26 @@ Most Popular Modern Languages:
   - Most operating systems are made with C!
   - Not as hard to learn as c++ but still rather difficult
   
+Time to Learn
+--
+Once you have chosen the language start absorbing as much knowledge as you can!
+
+Reading will provide you with a lot of information but it's also boring and sometimes it's nice to just dump in and do some hands on. A great resource to do just that is [Codecademy](https://www.codecademy.com/). I actually learned some basics from there myself. 
+
+Furthermore, a great resource for asking questions and finding answers is [stackoverflow](https://stackoverflow.com/)
+
+Pacing Yourself
+--
+One thing you really want to be careful of is what you try to learn next. If you get to ambitious or excited you may come up with something that is way out of your ability to do. For example, learning the basics of java and then trying to make the next billion dollar game. Immediatly afterwards.
+
+You should always be trying to learn something that is just beyond your current ability.
+
+  - You are more likely to finish the project(s)
+  - It will be less frustrating
+  - It will accelerate your technical growth
+  
+Asking Technical Questions Properly:
+--
+Many people make the mistake of dumping all of there code and saying something "code broke, please fix for me." There are an endless suppky of people out there that want to help but almost no one wants to do everything for you. You find the bad side of many people if you just dump code.
+
+Instead take the time to reasearch and document your issue. Actually provide things you have tried and what you think the problem is. A properly formed question is more likely to be takin seriously by the corresponding community. 
