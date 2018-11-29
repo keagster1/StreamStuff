@@ -3,9 +3,12 @@
 Use ctrl+f!
 --
 
+These are just the questions I could think of. I will regularly update this doc.
+
 Index:
-- [About Me]()
-- [Organized TODO]()
+- [About Me](https://github.com/keagster1/StreamStuff/blob/master/FAQ.md#about-me)
+- [Organized TODO Utility](https://github.com/keagster1/StreamStuff/blob/master/FAQ.md#organized-todo)
+- [Programming](https://github.com/keagster1/StreamStuff/blob/master/FAQ.md#organized-todo)
 
 About Me
 --
