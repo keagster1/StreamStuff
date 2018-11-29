@@ -1,2 +1,0 @@
-# StreamStuff
-Stream related documents
