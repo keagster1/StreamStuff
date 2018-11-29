@@ -4,8 +4,8 @@ Use ctrl+f!
 --
 
 Index:
-- About Me
-- Organized TODO
+- [About Me]()
+- [Organized TODO]()
 
 About Me
 --
