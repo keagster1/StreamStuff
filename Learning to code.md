@@ -77,6 +77,6 @@ You should always be trying to learn something that is just beyond your current 
   
 Asking Technical Questions Properly:
 --
-Many people make the mistake of dumping all of there code and saying something "code broke, please fix for me." There are an endless suppky of people out there that want to help but almost no one wants to do everything for you. You find the bad side of many people if you just dump code.
+Many people make the mistake of dumping all of there code and saying something "code broke, please fix for me." There are an endless supply of people out there that want to help but almost no one wants to do everything for you. You find the bad side of many people if you just dump code.
 
 Instead take the time to reasearch and document your issue. Actually provide things you have tried and what you think the problem is. A properly formed question is more likely to be takin seriously by the corresponding community. 
