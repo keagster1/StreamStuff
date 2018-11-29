@@ -21,6 +21,23 @@ About Me
 
    United States of America
    
+- What diet are you on?
+
+   I have been on the Keto diet since April (took October/November off) and lost over 50 pounds. You can read [here]() for more information on the Keto diet. Feel free to ask me specific questions that you have about the Keto diet. I'm happy to talk about it.
+   
+- Why are you programming instead of going outside?
+
+   I genuinly enjoy programming/project management and as such tend to spend alot of my time doing just that. I do have friends and I do go outside everyonce in a while but I always come back to the computer at some point.
+   
+- What are your career goals?
+
+   Right now I have two seperate career goals.
+   First, I want to become a manager at the company I work at.
+      
+      I'm hoping to achieve this within 5 - 10 years.
+   Second, I want to create a company at some point that focuses on development (games, apps, etc.)
+   
+      I don't have a timeline for this although the sooner the better.
 Organized TODO
 --
 - What are you working on?
