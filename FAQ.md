@@ -58,4 +58,4 @@ Programming
    
 - How do I get started with programming/developing?
    
-   This is good question but a broad question and as such requires its own document to explain. Go [here](https://www.google.com) to learn more.
+   This is good question but a broad question and as such requires its own document to explain. Go [here](https://github.com/keagster1/StreamStuff/blob/master/Learning%20to%20code.md) to learn more.
