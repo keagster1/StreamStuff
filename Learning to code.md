@@ -91,27 +91,27 @@ I chose 5 and gave potential solutions in Java.
 ### 1. How do you reverse an array?
 
 ``` Java
-	public static void main(String[] args) {
-		
-		String[] arr = {"1", "2", "3", "4", "5"};
-		ReverseArray(arr);
+public static void main(String[] args) {
+
+	String[] arr = {"1", "2", "3", "4", "5"};
+	ReverseArray(arr);
+}
+
+public static String[] ReverseArray(String[] arr) {
+	// Create temp array with same length as passed in array
+	String[] temp = new String[arr.length];
+
+	// Loop through passed in array from the last element to the first element
+	for(int i = arr.length; i > 0; i--) {
+		// Length is counted from 0 in Java so we have to account for that.
+		temp[temp.length - i] = arr[i-1];
+
+		// Print out
+		System.out.println(temp[temp.length - i]);
 	}
-	
-	public static String[] ReverseArray(String[] arr) {
-		// Create temp array with same length as passed in array
-		String[] temp = new String[arr.length];
-		
-		// Loop through passed in array from the last element to the first element
-		for(int i = arr.length; i > 0; i--) {
-			// Length is counted from 0 in Java so we have to account for that.
-			temp[temp.length - i] = arr[i-1];
-			
-			// Print out
-			System.out.println(temp[temp.length - i]);
-		}
-		
-		return temp;
-	}
+
+	return temp;
+}
 ```
 
 ### 2. How do you find the length of a singly linked list?
@@ -181,40 +181,121 @@ public class CustomLinkedList {
 ### 3. How do you check if a given string is a palindrome?
 ``` Java
 
-	public static void main(String[] args) {
-		String pal = "racecar";
-		System.out.println(isPalidrome(pal));
-	}
-	
-	// Check if string is a palindrome.
-	// There are a few issues with this implementation and I challenge you to improve this.
-	public static boolean isPalidrome(String text) {
-		
-		// Temp strings to store beginning and end of passed in string
-		String temp1 = "";
-		String temp2 = "";
-		
-		// Iterate over passed in string
-		for (int i = 0; i < text.length(); i++) {
-			// Stop iterating at half way point
-			if(i == text.length() / 2){
-				break;
-			}
-			
-			// Add current character and opposite character
-			temp1 += text.charAt(i);
-			temp2 += text.charAt(text.length() - 1 - i);
+public static void main(String[] args) {
+	String pal = "racecar";
+	System.out.println(isPalidrome(pal));
+}
+
+// Check if string is a palindrome.
+// There are a few issues with this implementation and I challenge you to improve this.
+public static boolean isPalidrome(String text) {
+
+	// Temp strings to store beginning and end of passed in string
+	String temp1 = "";
+	String temp2 = "";
+
+	// Iterate over passed in string
+	for (int i = 0; i < text.length(); i++) {
+		// Stop iterating at half way point
+		if(i == text.length() / 2){
+			break;
 		}
-		
-		// Check if temp strings are equal
-		if(temp1.equals(temp2)) {
-			return true;
-		} else {
-			return false;
-		}
-			
+
+		// Add current character and opposite character
+		temp1 += text.charAt(i);
+		temp2 += text.charAt(text.length() - 1 - i);
 	}
+
+	// Check if temp strings are equal
+	if(temp1.equals(temp2)) {
+		return true;
+	} else {
+		return false;
+	}
+
+}
 ```
 ### 4. How is a binary tree implemented?
-### 5. How is a bubble sort algorithm implemented?
+``` Java
+public static void BinaryTree() {
 
+	// Create binary tree
+	Node head = new Node("I'm at the top!", null, null);
+
+	// Add nodes on the left and right
+	head.setLeft(new Node("I'm on the left", null, null));
+	head.setRight(new Node("I'm on the right", null, null));
+	
+	// I stopped here but you should try to figure out how to search, iterate, and display a binary tree.
+
+}
+
+public class Node {
+
+	private Node left, right;
+	private String data;
+	
+	public Node(String data, Node left, Node right) {
+		this.data = data;
+		this.left = left;
+		this.right = right; 
+	}
+
+	public Node getLeft() {
+		return left;
+	}
+
+	public void setLeft(Node left) {
+		this.left = left;
+	}
+
+	public Node getRight() {
+		return right;
+	}
+
+	public void setRight(Node right) {
+		this.right = right;
+	}
+
+	public String getData() {
+		return data;
+	}
+
+	public void setData(String data) {
+		this.data = data;
+	}
+	
+}
+```
+
+### 5. How is a bubble sort algorithm implemented?
+``` Java
+// Sort int array with bubble sort.
+// See if you can figure out how to implement this with Strings!
+// Also try to see if you can find a more performant impelmentation.
+public static int[] BubbleSort(int[] arr) {
+
+	// Flag to check if the arr is sorted
+	boolean isSorted = false;
+
+	// Iterate over int array
+	while(isSorted == false) {
+		isSorted = true;
+		for(int i = 0; i < arr.length-1; i++) {
+			if(arr[i] > arr[i+1]) {
+				int temp = arr[i];
+				arr[i] = arr[i+1];
+				arr[i+1] = temp;
+				isSorted = false;
+			}
+		}
+	}
+
+	// Print result
+	for(int i : arr) {
+		System.out.println(i);
+	}
+
+	return arr;
+}
+```
