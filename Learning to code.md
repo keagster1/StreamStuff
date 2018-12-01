@@ -67,7 +67,7 @@ Furthermore, a great resource for asking questions and finding answers is [stack
 
 Pacing Yourself
 --
-One thing you really want to be careful of is what you try to learn next. If you get to ambitious or excited you may come up with something that is way out of your ability to do. For example, learning the basics of java and then trying to make the next billion dollar game. Immediatly afterwards.
+One thing you really want to be careful of is what you try to learn next. If you get to ambitious or excited you may come up with something that is way out of your ability to do. For example, learning the basics of java and then trying to make the next billion dollar game immediatly afterwards.
 
 You should always be trying to learn something that is just beyond your current ability.
 
