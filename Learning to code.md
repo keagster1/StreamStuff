@@ -80,3 +80,42 @@ Asking Technical Questions Properly:
 Many people make the mistake of dumping all of there code and saying something "code broke, please fix for me." There are an endless supply of people out there that want to help but almost no one wants to do everything for you. You find the bad side of many people if you just dump code.
 
 Instead take the time to reasearch and document your issue. Actually provide things you have tried and what you think the problem is. A properly formed question is more likely to be takin seriously by the corresponding community. 
+
+
+Common Programming Interview/Challenge Tasks:
+---
+[Here](https://simpleprogrammer.com/programming-interview-questions/) is a site that lists 50 programming questions.
+
+I chose 5 and gave potential solutions in Java.
+
+1. How do you reverse an array?
+
+``` Java
+	public static void main(String[] args) {
+		
+		String[] arr = {"1", "2", "3", "4", "5"};
+		ReverseArray(arr);
+	}
+	
+	public static String[] ReverseArray(String[] arr) {
+		// Create temp array with same length as passed in array
+		String[] temp = new String[arr.length];
+		
+		// Loop through passed in array from the last element to the first element
+		for(int i = arr.length; i > 0; i--) {
+			// Length is counted from 0 in Java so we have to account for that.
+			temp[temp.length - i] = arr[i-1];
+			
+			// Print out
+			System.out.println(temp[temp.length - i]);
+		}
+		
+		return temp;
+	}
+```
+
+2. How do you find the length of a singly linked list?
+3. How do you check if a given string is a palindrome?
+4. How is a binary tree implemented?
+5. How is a bubble sort algorithm implemented?
+
