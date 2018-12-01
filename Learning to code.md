@@ -115,6 +115,69 @@ I chose 5 and gave potential solutions in Java.
 ```
 
 2. How do you find the length of a singly linked list?
+
+``` Java
+package com;
+
+public static void main(String[] args) {
+
+	String[] arr = {"1", "2", "3", "4", "5"};
+	ReverseArray(arr);
+	// Define first item in list
+	CustomLinkedList ll = new CustomLinkedList("This", null);
+
+	// Add children to list
+	// There are multiple ways to go about doing this. I chose the worst way. I'll leave it to you to find a better way :D
+	ll.setNext(new CustomLinkedList("is", null));
+	ll.next().setNext(new CustomLinkedList("a", null));
+	ll.next().next().setNext(new CustomLinkedList("Linked", null));
+	ll.next().next().next().setNext(new CustomLinkedList("list", null));
+
+	// Get count
+	LinkedListLength(ll);
+}
+
+public static int LinkedListLength(CustomLinkedList First){
+	CustomLinkedList temp = First;
+	int count = 0;
+	while(temp.next() != null) {
+		count++;
+		temp = temp.next();
+	}
+	System.out.println(count);
+	return count;
+}
+
+public class CustomLinkedList {
+	
+	private String data;
+	private CustomLinkedList next;
+	
+	public CustomLinkedList(String data, CustomLinkedList next){
+		this.data = data;
+		this.next = next;
+	}
+	
+	public void setNext(CustomLinkedList next) {
+		this.next = next;
+	}
+	
+	public void setData(String data) {
+		this.data = data;
+	}
+	
+	public CustomLinkedList next() {
+		return this.next;
+	}
+	
+	public String getData() {
+		return this.data;
+	}
+}
+
+
+```
+
 3. How do you check if a given string is a palindrome?
 4. How is a binary tree implemented?
 5. How is a bubble sort algorithm implemented?
