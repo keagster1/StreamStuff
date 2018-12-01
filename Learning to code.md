@@ -88,7 +88,7 @@ Common Programming Interview/Challenge Tasks:
 
 I chose 5 and gave potential solutions in Java.
 
-### 1.How do you reverse an array?
+### 1. How do you reverse an array?
 
 ``` Java
 	public static void main(String[] args) {
@@ -179,6 +179,42 @@ public class CustomLinkedList {
 ```
 
 ### 3. How do you check if a given string is a palindrome?
+``` Java
+
+	public static void main(String[] args) {
+		String pal = "racecar";
+		System.out.println(isPalidrome(pal));
+	}
+	
+	// Check if string is a palindrome.
+	// There are a few issues with this implementation and I challenge you to improve this.
+	public static boolean isPalidrome(String text) {
+		
+		// Temp strings to store beginning and end of passed in string
+		String temp1 = "";
+		String temp2 = "";
+		
+		// Iterate over passed in string
+		for (int i = 0; i < text.length(); i++) {
+			// Stop iterating at half way point
+			if(i == text.length() / 2){
+				break;
+			}
+			
+			// Add current character and opposite character
+			temp1 += text.charAt(i);
+			temp2 += text.charAt(text.length() - 1 - i);
+		}
+		
+		// Check if temp strings are equal
+		if(temp1.equals(temp2)) {
+			return true;
+		} else {
+			return false;
+		}
+			
+	}
+```
 ### 4. How is a binary tree implemented?
 ### 5. How is a bubble sort algorithm implemented?
 
