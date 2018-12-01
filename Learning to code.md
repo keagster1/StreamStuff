@@ -88,7 +88,7 @@ Common Programming Interview/Challenge Tasks:
 
 I chose 5 and gave potential solutions in Java.
 
-1. How do you reverse an array?
+##How do you reverse an array?
 
 ``` Java
 	public static void main(String[] args) {
@@ -114,15 +114,13 @@ I chose 5 and gave potential solutions in Java.
 	}
 ```
 
-2. How do you find the length of a singly linked list?
+##2. How do you find the length of a singly linked list?
 
 ``` Java
 package com;
 
+// Program starts here
 public static void main(String[] args) {
-
-	String[] arr = {"1", "2", "3", "4", "5"};
-	ReverseArray(arr);
 	// Define first item in list
 	CustomLinkedList ll = new CustomLinkedList("This", null);
 
@@ -137,6 +135,7 @@ public static void main(String[] args) {
 	LinkedListLength(ll);
 }
 
+// Get length of linked list
 public static int LinkedListLength(CustomLinkedList First){
 	CustomLinkedList temp = First;
 	int count = 0;
@@ -148,6 +147,7 @@ public static int LinkedListLength(CustomLinkedList First){
 	return count;
 }
 
+// Basic implementation of a linked list
 public class CustomLinkedList {
 	
 	private String data;
