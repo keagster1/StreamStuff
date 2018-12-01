@@ -88,7 +88,7 @@ Common Programming Interview/Challenge Tasks:
 
 I chose 5 and gave potential solutions in Java.
 
-## How do you reverse an array?
+### 1.How do you reverse an array?
 
 ``` Java
 	public static void main(String[] args) {
@@ -114,7 +114,7 @@ I chose 5 and gave potential solutions in Java.
 	}
 ```
 
-## 2. How do you find the length of a singly linked list?
+### 2. How do you find the length of a singly linked list?
 
 ``` Java
 package com;
@@ -178,7 +178,7 @@ public class CustomLinkedList {
 
 ```
 
-## 3. How do you check if a given string is a palindrome?
-## 4. How is a binary tree implemented?
-## 5. How is a bubble sort algorithm implemented?
+### 3. How do you check if a given string is a palindrome?
+### 4. How is a binary tree implemented?
+### 5. How is a bubble sort algorithm implemented?
 
